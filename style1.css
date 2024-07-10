@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-*{
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    font-family: 'Poppins',sans-serif;
-    box-sizing: border-box;
-}
+
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(23, 32, 58);
+    
     color: white;
     font-family:'Poppins',sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 h1,h2,h3,h4{
     font-family: 'Roboto',sans-serif;
@@ -53,6 +49,7 @@ h1,h2,h3,h4{
     color:lightcoral;
     font-weight: 700;
     text-transform: capitalize;
+    text-decoration: none;
     
 
 }
@@ -73,6 +70,7 @@ h1,h2,h3,h4{
     text-transform: capitalize;
     transition: all 0.6s;
     border-top: 1px solid transparent;
+    text-decoration: none;
 }
 .nav-bar .navigation .link:hover a {
     color: lightcoral; 
@@ -119,6 +117,7 @@ h1,h2,h3,h4{
     font-weight: 600;
 }
 .about{
+    background-color: rgb(23, 32, 58);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -215,6 +214,10 @@ section .about .content{
     background-color: black;
     padding: 50px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
     
     .next-div {
@@ -284,11 +287,12 @@ section .about .content{
 .site{
     background-color: rgb(23, 32, 58);
     padding: 2rem;
-}
-.site .row{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.site .row{
+  
     flex-wrap: wrap;
 }
 .site .row p{
@@ -305,11 +309,7 @@ section .about .content{
 .site .row p small{
     font-size: 100px;
 }
-.contact{
-    background-color: black;
-    font-size: 20px;
-    color: #fcfcfc;
-}
+
 .contact .item{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -325,6 +325,8 @@ section .about .content{
     display: flex;
     flex-direction: column;
     gap:2rem;
+    align-items: center;
+    justify-content: center;
 }
 .contact .contact-div{
     text-align: center;
@@ -354,9 +356,9 @@ section .about .content{
     background-image:linear-gradient(140deg,rgba(19, 18, 18, 0.705), rgba(23, 32, 58, 0.692));
     height: auto;
     padding: 1rem 0.2rem;
-    margin-left:3.2rem;
     border: 3px solid linear-gradient(45deg,rgba(0, 0, 0, 0.603), rgba(23, 32, 58, 0.911));
     border-radius: 18px;
+
 }
 .contact .items {
     display: grid;
@@ -510,9 +512,12 @@ section .about .content{
 }
 
 .pack .content{
-    width: 100%;
+   
     max-width:1200px;
-    margin-left: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 .pack .content .content-bg{
@@ -564,6 +569,10 @@ span{
     color: #fcfcfce0;
     font-size: 16px;
 }
+.pack .carousel{
+    position: relative;
+    padding: 0rem 7rem;
+}
 .pack .items .col p
 {
     display: flex;
@@ -582,6 +591,9 @@ span{
 footer{
     background-color: black;
     color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 footer .content{
@@ -600,19 +612,24 @@ footer .content{
     align-items: center;
     gap:3rem;
     color: #fcfcfc;
+
 }
 footer .social{
     padding: 1rem 0rem;
     display: flex;
     gap: 2rem;
+    text-decoration: none;
 }
 footer .social a i{
     color:lightcoral;
+
 }
 footer .social a i:hover{
     color:#fcfcfc;
     
 }
 
-
+footer .social a{
+    text-decoration: none;
+}
 

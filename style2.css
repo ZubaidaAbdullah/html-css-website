@@ -1,0 +1,263 @@
+@media only screen and (max-width: 768px) {
+    .nav-bar .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar .navigation {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .nav-bar .site-content .logo-link {
+        margin-bottom: 1rem;
+    }
+
+    .home h1 {
+        font-size: 36px;
+    }
+
+    .expnow-btn {
+        font-size: 16px;
+    }
+
+    .about img {
+        margin-top: 2rem;
+    }
+
+    .about .items {
+        grid-template-columns: 1fr;
+    }
+
+  
+    .nav-bar .content {
+        padding: 15px;    }
+
+    .nav-bar .site-content .logo-link {
+        font-size: 22px; 
+    }
+
+    .nav-bar .navigation .link a {
+        font-size: 16px; 
+    }
+
+    .home h1 {
+        font-size: 42px; 
+    }
+
+    .expnow-btn {
+        font-size: 18px; 
+        padding: 0.6rem 0.4rem;    }
+
+    .about h2 {
+        font-size: 32px; 
+    }
+
+    .about p {
+        font-size: 16px; 
+    }
+
+    .about .item-data .col h3 {
+        font-size: 20px; 
+    }
+
+    .about .item-data .col span {
+        font-size: 18px; 
+    }
+
+   
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .next {
+        padding: 30px 0;    }
+
+    .next h2 {
+        font-size: 32px; 
+    }
+
+    .next-div p {
+        font-size: 16px; 
+    }
+
+  
+    .next .items {
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    .next .card {
+        width: 100%; 
+        margin: 16px 0;  .next .image img {
+        height: auto;
+    }
+    }
+    .next .content-card h3 {
+        font-size: 20px; 
+    }
+
+    .next .content-card p {
+        font-size: 14px; 
+    }
+
+    .site {
+        padding: 1rem;    }
+
+    .site .row p {
+        font-size: 100px; 
+    }
+
+    .contact .contact-div h2 {
+        font-size: 32px; 
+    }
+
+    .contact .contact-div p {
+        font-size: 18px; 
+    }
+
+    .contact .items .row .card {
+        width: 100%; 
+    }
+
+    .contact .items .form {
+        width: 100%;
+        margin: 0.3rem 1rem;  .contact .items .form form input,
+    .contact .items .form form textarea {
+        width: 100%;  
+    }
+    }
+    .sub-btn {
+        width: 100%;
+    }
+
+    .pack {
+        background-color: rgb(22, 30, 54);
+        font-size: 20px;
+        color: #fcfcfc;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .pack .item {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        width: 100%;
+    }
+    
+    .pack .pack-div {
+        text-align: center;
+        padding: 1.2rem 1rem;
+    }
+    
+    .pack .pack-div h3 {
+        font-size: 40px;
+        color: lightcoral;
+        padding: 0.3rem;
+        text-align: center;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        margin: 5px;
+    }
+    
+    .pack .pack-div p {
+        font-size: 20px; 
+        color: #fcfcfc;
+        margin: 0px;
+    }
+    
+    .pack .content {
+        width: 100%;
+        max-width: 100%; 
+        margin-left: 0; 
+    }
+    
+    .pack .content .content-bg {
+        width: 100%;
+        background-image: linear-gradient(140deg, rgba(0, 0, 0, 0.815), rgba(17, 23, 41, 0.842));
+        height: auto;
+        padding: 1rem 0.2rem;
+        margin-left: 0; 
+        border: 3px solid linear-gradient(45deg, rgba(0, 0, 0, 0.815), rgba(17, 23, 41, 0.842));
+        border-radius: 18px;
+    }
+    
+    .pack .items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+        gap: 1rem;    width: 100%;
+    }
+    
+    .pack .items .col {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        padding: 0.3rem 0.5rem;        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .pack .items .col .line {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    span {
+        font-style: italic;
+        color: #fcfcfce0;
+        font-size: 14px; 
+    }
+    
+    .tab {
+        display: inline-block;
+        margin-left: 0; 
+        font-style: italic;
+        color: #fcfcfce0;
+        font-size: 14px; 
+    }
+    
+    
+    footer {
+        background-color: black;
+        color: #fcfcfc;
+    }
+    
+    footer .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 1rem; 
+        text-align: center;
+        color: lightcoral;
+    }
+    
+    footer .social {
+        padding: 1rem 0rem;
+        display: flex;
+        gap: 1rem; 
+        
+    }
+    
+    footer .social a i {
+        color: lightcoral;
+    }
+    
+    footer .social a i:hover {
+        color: #fcfcfc;
+    }
+    
+   
+    
+}
